@@ -1,0 +1,24 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    color:rgb(8, 249, 125);
+}
+
+body{
+    background-image: url(http://jd-doria.com/full/matter_is_soft/Doria_0152.jpg);
+    background-size: cover;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+img:hover {
+    border: 5px solid  rgb(20, 179, 94);
+    border-radius: 10px;
+}
+
+h1, h3, h4 {
+    background-color: black;
+}

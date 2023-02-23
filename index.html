@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>Crypto Prices</title>
+</head>
+<body>
+    <!-- Main container for cryptos: -->
+    <div class="text-light text-center p-2">
+        <div class="d-flex justify-content-evenly">
+            <div class="p-2">
+                <h3>Bitcoin</h3>
+                <figure id="fig1" onclick="event.stopPropagation(); getCrypto(this.id, event)" >
+                    <img style="width: 300px; height: 200px" src="https://i-invdn-com.investing.com/news/bitcoin_800x533_L_1411988633.jpg" alt="BTC">
+                    <h4 id="price0"></h4>
+                </figure>
+            </div>
+            <div class="p-2">
+                <h3>Ethereum</h3>
+                <figure id="fig2" onclick="event.stopPropagation(); getCrypto(this.id, event)">
+                    <img style="width: 300px; height: 200px" src="https://www.forbes.com/advisor/wp-content/uploads/2021/03/ethereum-1.jpeg" alt="ETH">
+                    <h4 id="price1"></h4>
+                </figure>
+            </div>
+            <div class="p-2">
+                <h3>Tether</h3>
+                <figure id="fig3" onclick="event.stopPropagation(); getCrypto(this.id, event)">
+                    <img style="width: 300px; height: 200px" src="https://thumbs.dreamstime.com/b/tether-usdt-cryptocurrency-coin-placed-crypto-altcoins-lit-orange-blue-lights-tether-usdt-cryptocurrency-physical-247675501.jpg" alt="USDT">
+                    <h4 id="price2"></h4>
+                </figure>
+            </div>
+        </div>
+        <div class="d-flex justify-content-evenly">
+            <div class="p-2">
+                <h3>XRP</h3>
+                <figure id="fig4" onclick="event.stopPropagation(); getCrypto(this.id, event)" >
+                    <img style="width: 300px; height: 200px" src="https://www.thecoinrepublic.com/wp-content/uploads/2022/10/xrp-1.jpg" alt="XRP">
+                    <h4 id="price3"></h4>
+                </figure>
+            </div>
+            <div class="p-2">
+                <h3>Cardano</h3>
+                <figure id="fig5" onclick="event.stopPropagation(); getCrypto(this.id, event)">
+                    <img style="width: 300px; height: 200px" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Cardano_Logo.jpg" alt="ADA">
+                    <h4 id="price4"></h4>
+                </figure>
+            </div>
+            <div class="p-2">
+                <h3>Dogecoin</h3>
+                <figure id="fig6" onclick="event.stopPropagation(); getCrypto(this.id, event)">
+                    <img style="width: 300px; height: 200px" src="https://assets.gadgets360cdn.com/img/crypto/dogecoin-og-logo.png" alt="DOGE">
+                    <h4 id="price5"></h4>
+                </figure>
+            </div>
+        </div>
+        <div class="d-flex justify-content-evenly">
+            <div class="p-2">
+                <h3>Litecoin</h3>
+                <figure id="fig7" onclick="event.stopPropagation(); getCrypto(this.id, event)" >
+                    <img style="width: 300px; height: 200px" src="https://assets.cmcmarkets.com/images/Litecoin_image_extra.webp" alt="LTC">
+                    <h4 id="price6"></h4>
+                </figure>
+            </div>
+            <div class="p-2">
+                <h3 class="text-stroke">Bitcoin Cash</h3>
+                <figure id="fig8" onclick="event.stopPropagation(); getCrypto(this.id, event)">
+                    <img style="width: 300px; height: 200px" src="https://coincentral.com/wp-content/uploads/2017/11/bitcoincash-874x437.png" alt="BCH">
+                    <h4 id="price7"></h4>
+                </figure>
+            </div>
+            <div class="p-2">
+                <h3>Binance Coin</h3>
+                <figure id="fig9" onclick="event.stopPropagation(); getCrypto(this.id, event)">
+                    <img style="width: 300px; height: 200px" src="https://img.currency.com/imgs/articles/834xx/2GB8DP8.jpg" alt="BNB">
+                    <h4 id="price8"></h4>
+                </figure>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
